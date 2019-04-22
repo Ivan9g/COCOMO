@@ -36,7 +36,7 @@ router.post('/', function(req , res){
   //pm - people x mounth
   var pm = eaf * a[i] * pow(size, b[i])
 
-  console.log(tm);
+  res.send(`${pm}`);
 })
 
 module.exports = router

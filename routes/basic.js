@@ -19,7 +19,8 @@ router.post('/', function(req , res){
   //tm - time at mounth
   var tm = c[i] * Math.pow(pm, d[i])
 
-  console.log(tm);
+console.log(tm);
+  res.send(`${tm}`);
 })
 
 module.exports = router
